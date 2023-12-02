@@ -40,3 +40,10 @@ After That You've To Paste The Config For Your Client Like The Following:
   "version": "beta"
 }
 ```
+
+Finaly You've To Install The Required Packages.
+
+For That Use The Following Command In Your Terminal:
+```
+npm i axios countries-and-timezones discord.js distube dotenv express ffmpeg-static libsodium-wrappers quick.db socket.io-client write-file-atomic
+```
