@@ -1,0 +1,27 @@
+{
+  "name": "quran-bot-client",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --no-warnings dist/index.js",
+    "dev:start": "node --no-warnings dev.js",
+    "start": "tsc && node --no-warnings dist/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "countries-and-timezones": "^3.5.2",
+    "discord.js": "^14.14.1",
+    "distube": "^4.1.1",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "ffmpeg-static": "^5.2.0",
+    "libsodium-wrappers": "^0.7.13",
+    "path": "^0.12.7",
+    "quick.db": "^9.1.7",
+    "socket.io-client": "^4.7.2",
+    "write-file-atomic": "^5.0.1"
+  }
+}

@@ -1,0 +1,6 @@
+{
+    "api1": "https://quranbot.awhaw.xyz/api",
+    "ws1": "https://quranbot.awhaw.xyz/",
+    "api": "http://127.0.0.1:4444/api",
+    "ws": "http://127.0.0.1:4444/"
+}
