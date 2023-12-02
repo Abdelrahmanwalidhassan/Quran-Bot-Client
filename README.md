@@ -66,6 +66,5 @@ Now Your Project Is All Setup But We Need To Assain Eviroment Variables, You Can
 ```env
 SECRET_KEY=dev
 PASSWORD=dev
-VERSION=beta
 TOKEN=YOUR_DISCORD_BOT_TOKEN
 ```
