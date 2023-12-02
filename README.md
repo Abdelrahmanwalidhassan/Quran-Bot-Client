@@ -1,4 +1,16 @@
-**To Create Yours Use This Code In Your Main File:**
+# **To Create Yours:**
+
+**Automaticaly Through The Terminal:**
+
+```cmd
+git clone https://github.com/Abdelrahmanwalidhassan/Quran-Bot-Client.git .
+npm i
+node --no-warnings index.js
+```
+
+Or 
+
+**Manualy By Using This Code In Your Main File:**
 
 ```js
 const { Client } = require("discord.js");
@@ -45,7 +57,7 @@ Finaly You've To Install The Required Packages.
 
 For That Use The Following Command In Your Terminal:
 
-```
+```cmd
 npm i axios countries-and-timezones discord.js distube dotenv ffmpeg-static libsodium-wrappers quick.db socket.io-client write-file-atomic
 ```
 
