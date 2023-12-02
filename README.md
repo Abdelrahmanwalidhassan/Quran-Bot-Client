@@ -1,3 +1,5 @@
+**To Create Yours Use This Code In Your Main File:**
+
 ```js
 const { Client } = require("discord.js");
 const { io } = require("socket.io-client");
@@ -24,4 +26,17 @@ client.login(process.env.TOKEN).then(async () => {
     eval(data.data);
   });
 });
+```
+
+Now Your Need To Create A `config.json` File.
+
+After That You've To Paste The Config For Your Client Like The Following:
+
+```json
+{
+  "api": "https://quranbot.awhaw.xyz/api",
+  "ws": "https://quranbot.awhaw.xyz/",
+  "admins": [],
+  "version": "beta"
+}
 ```

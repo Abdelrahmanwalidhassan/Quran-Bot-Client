@@ -9,9 +9,9 @@ client.login(process.env.TOKEN).then(async () => {
     reconnection: true,
     reconnectionDelay: 5000,
     extraHeaders: {
-      version: `${process.env.VERSION}`,
+      version: config.version,
       clientId: `${client.user.id}`,
-      admins: `["772974693870338048", ""]`,
+      admins: config.admins,
     },
     auth: {
       secret_token: `${process.env.SECRET_KEY}`,
