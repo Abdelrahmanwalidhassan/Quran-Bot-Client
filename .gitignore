@@ -1,3 +1,9 @@
 /dist
 /node_modules
 back.txt
+.env
+azkar.json
+players.json
+/.git
+/.vscode
+package-lock.json
