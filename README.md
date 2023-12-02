@@ -12,9 +12,9 @@ client.login(process.env.TOKEN).then(async () => {
     reconnection: true,
     reconnectionDelay: 5000,
     extraHeaders: {
-      version: `${process.env.VERSION}`,
+      version: config.version,
       clientId: `${client.user.id}`,
-      admins: `["772974693870338048", ""]`,
+      admins: config.admins,
     },
     auth: {
       secret_token: `${process.env.SECRET_KEY}`,
@@ -44,6 +44,16 @@ After That You've To Paste The Config For Your Client Like The Following:
 Finaly You've To Install The Required Packages.
 
 For That Use The Following Command In Your Terminal:
+
 ```
-npm i axios countries-and-timezones discord.js distube dotenv express ffmpeg-static libsodium-wrappers quick.db socket.io-client write-file-atomic
+npm i axios countries-and-timezones discord.js distube dotenv ffmpeg-static libsodium-wrappers quick.db socket.io-client write-file-atomic
+```
+
+Now Your Project Is All Setup But We Need To Assain Eviroment Variables, You Can Create an `.env` File For That And That Will Be The Content:
+
+```env
+SECRET_KEY=dev
+PASSWORD=dev
+VERSION=beta
+TOKEN=YOUR_DISCORD_BOT_TOKEN
 ```
