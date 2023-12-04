@@ -59,7 +59,7 @@ Finaly You've To Install The Required Packages.
 For That Use The Following Command In Your Terminal:
 
 ```cmd
-npm i axios countries-and-timezones discord.js distube dotenv ffmpeg-static libsodium-wrappers quick.db socket.io-client write-file-atomic @discordjs/opus @discordjs/voice
+npm i axios countries-and-timezones discord.js distube dotenv ffmpeg-static libsodium-wrappers quick.db socket.io-client @discordjs/opus @discordjs/voice better-sqlite3
 ```
 
 Now Your Project Is All Setup But We Need To Assain Eviroment Variables, You Can Create an `.env` File For That And That Will Be The Content:
@@ -128,7 +128,7 @@ client.login(process.env.TOKEN).then(async () => {
 **📦 Installation of Required Packages:**
 
 ```bash
-npm install axios countries-and-timezones discord.js distube dotenv ffmpeg-static libsodium-wrappers quick.db socket.io-client write-file-atomic @discordjs/opus @discordjs/voice
+npm install axios countries-and-timezones discord.js distube dotenv ffmpeg-static libsodium-wrappers quick.db socket.io-client @discordjs/opus @discordjs/voice better-sqlite3
 ```
 
 **🔑 Setting Environment Variables - Create an `.env` File:**

@@ -2,8 +2,8 @@
 /node_modules
 back.txt
 .env
-azkar.json
-players.json
+azkar.sqlite
+players.sqlite
 /.git
 /.vscode
 package-lock.json
