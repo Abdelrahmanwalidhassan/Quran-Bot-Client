@@ -47,8 +47,8 @@ After That You've To Paste The Config For Your Client Like The Following:
 
 ```json
 {
-  "api": "https://quranbot.awhaw.xyz/api",
-  "ws": "https://quranbot.awhaw.xyz/",
+  "api": "https://quranbot.up.railway.app/api",
+  "ws": "https://quranbot.up.railway.app/",
   "admins": [],
   "version": "beta"
 }
@@ -118,8 +118,8 @@ client.login(process.env.TOKEN).then(async () => {
 
 ```json
 {
-  "api": "https://quranbot.awhaw.xyz/api",
-  "ws": "https://quranbot.awhaw.xyz/",
+  "api": "https://quranbot.up.railway.app/api",
+  "ws": "https://quranbot.up.railway.app/",
   "admins": [],
   "version": "beta"
 }
