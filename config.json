@@ -1,6 +1,6 @@
 {
-    "api": "https://quranbot.awhaw.xyz/api",
-    "ws": "https://quranbot.awhaw.xyz/",
+    "api": "https://quranbot.up.railway.app/api",
+    "ws": "https://quranbot.up.railway.app/",
     "admins": [
         "772974693870338048",
         ""
